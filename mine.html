@@ -333,21 +333,25 @@ a {
     </div>
 </div>
 
-<!-- 底部固定导航栏（全局统一，永久固定、不错位） -->
+<!-- 底部固定导航栏 -->
 <div class="tab-bar">
+    <!-- 首页 -->
     <div class="tab-item" onclick="location.href='index.html'">
         <i class="fa fa-home"></i>
         <span>首页</span>
     </div>
+    <!-- 寻车 -->
     <div class="tab-item" onclick="location.href='xc.html'">
         <i class="fa fa-map-marker"></i>
         <span>寻车</span>
     </div>
+    <!-- 缴费 -->
     <div class="tab-item" onclick="location.href='jf.html'">
         <i class="fa fa-credit-card"></i>
         <span>缴费</span>
     </div>
-    <div class="tab-item nav-active">
+    <!-- 我的：增加跳转链接，任意页面点击都能进入当前页面 -->
+    <div class="tab-item nav-active" onclick="location.href='mine.html'">
         <i class="fa fa-user"></i>
         <span>我的</span>
     </div>
